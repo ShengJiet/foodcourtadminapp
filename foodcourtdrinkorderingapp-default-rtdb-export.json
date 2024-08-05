@@ -1,0 +1,937 @@
+{
+  "Admin": {
+    "address": "33-A, Jalan Putera Mahkota 3, 31990, Kampar, Perak",
+    "age": "24",
+    "contactNo": "011-11111111",
+    "email": "leeshengjiet@1utar.my",
+    "gender": "Male",
+    "name": "Lee Sheng Jiets",
+    "nationality": "Malaysia",
+    "races": "India",
+    "role": "Boss"
+  },
+  "Bill": {
+    "-O1f6BZphg_ee30h1qIe": {
+      "-O1f6BZuti35Q7JpalQn": {
+        "itemName": "Du Shu Xiang(1 pot)",
+        "price": 7,
+        "quantity": 1,
+        "subtotal": 7
+      },
+      "-O1f6BZvGD6ZNQ3xPe_X": {
+        "itemName": "Du Shu Xiang(1 pot)",
+        "price": 7,
+        "quantity": 1,
+        "subtotal": 7
+      },
+      "dateTime": "2024-07-13 08:01:48",
+      "tableNumber": "12",
+      "tax": 0.56,
+      "totalPrice": "$14.56"
+    },
+    "-O1uScVwEAdCwSAej8Jq": {
+      "-O1uScW-CEa6fFpzJ34a": {
+        "itemName": "Xiang Pian(1 Pot)",
+        "price": 7,
+        "quantity": 1,
+        "subtotal": 7
+      },
+      "-O1uScW-CEa6fFpzJ34c": {
+        "itemName": "Grape Juice",
+        "price": 4.5,
+        "quantity": 1,
+        "subtotal": 4.5
+      },
+      "dateTime": "2024-07-16 07:34:11",
+      "tableNumber": "11",
+      "tax": 0.46,
+      "totalPrice": "$11.96"
+    }
+  },
+  "Category": [
+    {
+      "Id": 0,
+      "ImagePath": "btn_11",
+      "Name": "Hot drinks"
+    },
+    {
+      "Id": 1,
+      "ImagePath": "btn_12",
+      "Name": "Cold drinks"
+    },
+    {
+      "Id": 2,
+      "ImagePath": "btn_13",
+      "Name": "Chinese Tea"
+    },
+    {
+      "Id": 3,
+      "ImagePath": "btn_14",
+      "Name": "Fruit Juice"
+    },
+    {
+      "Id": 4,
+      "ImagePath": "btn_15",
+      "Name": "Soda Drinks"
+    },
+    {
+      "Id": 5,
+      "ImagePath": "btn_16",
+      "Name": "Pack Drinks"
+    },
+    {
+      "Id": 6,
+      "ImagePath": "btn_17",
+      "Name": "Smoothie"
+    },
+    {
+      "Id": 7,
+      "ImagePath": "btn_18",
+      "Name": "Beer"
+    }
+  ],
+  "Drinks": [
+    {
+      "BestDrink": true,
+      "CategoryId": 0,
+      "Description": "Hot Cham",
+      "Id": 0,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/hot%20cham.png?alt=media&token=9f0194a7-6196-489f-b9f5-809b4fe99c64",
+      "LocationId": 0,
+      "Price": 2.2,
+      "PriceId": 0,
+      "Star": 4.5,
+      "TimeId": 1,
+      "TimeValue": 6,
+      "Title": "Hot Cham"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 0,
+      "Description": "Hot Kopi",
+      "Id": 1,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/hot%20kopi.png?alt=media&token=bee968cd-aa36-4e6e-a08d-433aa5dd6b60",
+      "LocationId": 0,
+      "Price": 2.2,
+      "PriceId": 0,
+      "Star": 4.7,
+      "TimeId": 1,
+      "TimeValue": 6,
+      "Title": "Hot Kopi"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 0,
+      "Description": "Hot Teh",
+      "Id": 2,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/hot%20teh.png?alt=media&token=f3814975-ff08-4613-bf80-3c8b97ea2460",
+      "LocationId": 0,
+      "Price": 2.2,
+      "PriceId": 0,
+      "Star": 4.5,
+      "TimeId": 1,
+      "TimeValue": 6,
+      "Title": "Hot Teh"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 0,
+      "Description": "Hot Teh-O",
+      "Id": 3,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/hot%20teh-o.png?alt=media&token=9b6b85de-0076-4f48-bda2-7ada6cba6bae",
+      "LocationId": 0,
+      "Price": 2.2,
+      "PriceId": 0,
+      "Star": 4.6,
+      "TimeId": 1,
+      "TimeValue": 6,
+      "Title": "Hot Teh-O"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 0,
+      "Description": "Hot Kopi-O",
+      "Id": 4,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/hot%20kopi-o.png?alt=media&token=9dcd9dc2-205f-4d0a-82cf-502620ae666e",
+      "LocationId": 0,
+      "Price": 1.5,
+      "PriceId": 0,
+      "Star": 4.3,
+      "TimeId": 1,
+      "TimeValue": 6,
+      "Title": "Hot Kopi-O"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 0,
+      "Description": "Hot Milo",
+      "Id": 5,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/hot%20milo.png?alt=media&token=b5c08d0d-7b72-43b4-9ed9-487a649eabef",
+      "LocationId": 0,
+      "Price": 2.5,
+      "PriceId": 0,
+      "Star": 4.8,
+      "TimeId": 1,
+      "TimeValue": 7,
+      "Title": "Hot Milo"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 0,
+      "Description": "Hot nescafe.",
+      "Id": 6,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/hot%20nescafe.png?alt=media&token=ad0da98d-aa01-4449-83bf-99181977c8e4",
+      "LocationId": 0,
+      "Price": 2.5,
+      "PriceId": 0,
+      "Star": 4.5,
+      "TimeId": 1,
+      "TimeValue": 6,
+      "Title": "Hot Nescafe"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 0,
+      "Description": "Hot Neslo",
+      "Id": 7,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/hot%20neslo.png?alt=media&token=2fbeb9dc-3679-4736-b3ea-19e3e47d5b5c",
+      "LocationId": 0,
+      "Price": 2.5,
+      "PriceId": 0,
+      "Star": 4.7,
+      "TimeId": 1,
+      "TimeValue": 7,
+      "Title": "Hot Neslo"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 0,
+      "Description": "Hot Honey Lemon",
+      "Id": 8,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/hot%20honey%20lemon.png?alt=media&token=d8e5c95c-d87e-475b-9332-098081d207e2",
+      "LocationId": 0,
+      "Price": 3,
+      "PriceId": 0,
+      "Star": 4.5,
+      "TimeId": 1,
+      "TimeValue": 8,
+      "Title": "Hot Honey Lemon"
+    },
+    {
+      "BestDrink": true,
+      "CategoryId": 1,
+      "Description": "Kopi Ice",
+      "Id": 9,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/kopi%20ice.png?alt=media&token=70659947-f959-4120-8219-2ac16c3a15cf",
+      "LocationId": 0,
+      "Price": 3.5,
+      "PriceId": 0,
+      "Star": 4.7,
+      "TimeId": 1,
+      "TimeValue": 7,
+      "Title": "Kopi Ice"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 1,
+      "Description": "Cham Ice",
+      "Id": 10,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/cham%20ice.png?alt=media&token=944caa78-9107-41e1-9f53-b78d17fe2bf0",
+      "LocationId": 0,
+      "Price": 3.5,
+      "PriceId": 1,
+      "Star": 4.7,
+      "TimeId": 1,
+      "TimeValue": 7,
+      "Title": "Cham Ice"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 1,
+      "Description": "Teh Ice",
+      "Id": 11,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/teh%20ice.png?alt=media&token=3357a15f-1429-47c1-ba16-7c6bf0591e37",
+      "LocationId": 0,
+      "Price": 3.5,
+      "PriceId": 1,
+      "Star": 4.4,
+      "TimeId": 1,
+      "TimeValue": 7,
+      "Title": "Teh Ice"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 1,
+      "Description": "Kopi-O Ice",
+      "Id": 12,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/kopi-o%20ice.png?alt=media&token=efd2e845-8e2c-42e5-9998-74e8aa5b58a0",
+      "LocationId": 0,
+      "Price": 3,
+      "PriceId": 0,
+      "Star": 4.3,
+      "TimeId": 1,
+      "TimeValue": 7,
+      "Title": "Kopi-O Ice"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 1,
+      "Description": "Teh-O Ice",
+      "Id": 13,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/teh-o%20ice.png?alt=media&token=48301b95-dfc4-4ed0-ae95-5ba18d9dbda2",
+      "LocationId": 0,
+      "Price": 3,
+      "PriceId": 0,
+      "Star": 4.8,
+      "TimeId": 2,
+      "TimeValue": 7,
+      "Title": "Teh-O Ice"
+    },
+    {
+      "BestDrink": true,
+      "CategoryId": 1,
+      "Description": "Milo Ice",
+      "Id": 14,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/milo%20ice.png?alt=media&token=e48d5a2a-b95f-4af1-91f2-59d74ae4ef90",
+      "LocationId": 0,
+      "Price": 3.8,
+      "PriceId": 0,
+      "Star": 4.5,
+      "TimeId": 1,
+      "TimeValue": 8,
+      "Title": "Milo Ice"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 1,
+      "Description": "Honey Lemon Ice",
+      "Id": 15,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/honey%20lemon%20ice.png?alt=media&token=9befc5b7-c871-480c-aac4-1455c944d641",
+      "LocationId": 0,
+      "Price": 3.5,
+      "PriceId": 0,
+      "Star": 4.7,
+      "TimeId": 1,
+      "TimeValue": 9,
+      "Title": "Honey Lemon Ice"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 1,
+      "Description": "Neslo Ice",
+      "Id": 16,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/neslo%20ice.png?alt=media&token=d5652e9b-644d-482b-aa6d-9404e47d4e3f",
+      "LocationId": 0,
+      "Price": 3.5,
+      "PriceId": 0,
+      "Star": 4.7,
+      "TimeId": 1,
+      "TimeValue": 7,
+      "Title": "Neslo Ice"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 1,
+      "Description": "Nescafe Ice",
+      "Id": 17,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/nescafe%20ice.png?alt=media&token=5396e8f1-a40b-498a-bea8-813a9fbea671",
+      "LocationId": 0,
+      "Price": 3.5,
+      "PriceId": 0,
+      "Star": 4.6,
+      "TimeId": 1,
+      "TimeValue": 7,
+      "Title": "Nescafe Ice"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 2,
+      "Description": "Xiang Pian",
+      "Id": 18,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/xiang%20pian%20tea.png?alt=media&token=5a3003d4-983a-4793-b297-0fa86beb8525",
+      "LocationId": 0,
+      "Price": 7,
+      "PriceId": 1,
+      "Star": 4.5,
+      "TimeId": 0,
+      "TimeValue": 4,
+      "Title": "Xiang Pian(1 Pot)"
+    },
+    {
+      "BestDrink": true,
+      "CategoryId": 2,
+      "Description": "Pu Er",
+      "Id": 19,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/pu%20er%20tea.png?alt=media&token=cd6bb48f-69b2-4226-b95f-35e93c4c9bc2",
+      "LocationId": 0,
+      "Price": 7,
+      "PriceId": 1,
+      "Star": 4.4,
+      "TimeId": 0,
+      "TimeValue": 4,
+      "Title": "Pu Er(1 pot)"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 2,
+      "Description": "Du Shu Xiang",
+      "Id": 20,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/du%20shu%20xiang%20tea.png?alt=media&token=25c6e59e-bc0b-43a7-b015-2f6427ae2a1c",
+      "LocationId": 0,
+      "Price": 7,
+      "PriceId": 1,
+      "Star": 4.8,
+      "TimeId": 0,
+      "TimeValue": 4,
+      "Title": "Du Shu Xiang(1 pot)"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 2,
+      "Description": "Ju Bao",
+      "Id": 21,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/ju%20bao%20tea.png?alt=media&token=c234988f-0b65-487c-9c7c-1560be87a843",
+      "LocationId": 0,
+      "Price": 7,
+      "PriceId": 1,
+      "Star": 4.6,
+      "TimeId": 0,
+      "TimeValue": 4,
+      "Title": "Ju Bao(1 pot)"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 2,
+      "Description": "Cha Wang",
+      "Id": 22,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/cha%20wang%20tea.png?alt=media&token=9ec3e3f6-6f64-4270-ad07-2d6b9d0f2231",
+      "LocationId": 0,
+      "Price": 7,
+      "PriceId": 1,
+      "Star": 4.6,
+      "TimeId": 0,
+      "TimeValue": 4,
+      "Title": "Cha Wang(1 pot)"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 2,
+      "Description": "Tie Guan Yin",
+      "Id": 23,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/tie%20guan%20yin%20tea.png?alt=media&token=cbfd7555-901d-4c95-861d-74853b545cb8",
+      "LocationId": 0,
+      "Price": 7,
+      "PriceId": 1,
+      "Star": 4.5,
+      "TimeId": 0,
+      "TimeValue": 4,
+      "Title": "Tie Guan Yin(1 pot)"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 3,
+      "Description": "Apple Juice",
+      "Id": 24,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/apple%20juice.png?alt=media&token=4ee8876e-2198-410c-bf8b-ede2c097beea",
+      "LocationId": 0,
+      "Price": 4,
+      "PriceId": 0,
+      "Star": 4.2,
+      "TimeId": 1,
+      "TimeValue": 9,
+      "Title": "Apple Juice"
+    },
+    {
+      "BestDrink": true,
+      "CategoryId": 3,
+      "Description": "Orange Juice",
+      "Id": 25,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/orange%20juice.png?alt=media&token=168e2c39-9c47-4850-b922-64dd6eed44e8",
+      "LocationId": 0,
+      "Price": 4,
+      "PriceId": 0,
+      "Star": 4.5,
+      "TimeId": 2,
+      "TimeValue": 12,
+      "Title": "Orange Juice"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 3,
+      "Description": "Carrot Milk",
+      "Id": 26,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/carrot%20milk.png?alt=media&token=a3eb64e1-9696-41b6-a97a-e1af47234ff5",
+      "LocationId": 0,
+      "Price": 4,
+      "PriceId": 0,
+      "Star": 4.5,
+      "TimeId": 2,
+      "TimeValue": 12,
+      "Title": "Carrot Milk"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 3,
+      "Description": "Mango Juice",
+      "Id": 27,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/mango%20juice.png?alt=media&token=8cdfef96-ba5b-45d4-98d3-9566383783e8",
+      "LocationId": 0,
+      "Price": 4.5,
+      "PriceId": 0,
+      "Star": 4.3,
+      "TimeId": 2,
+      "TimeValue": 12,
+      "Title": "Mango Juice"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 3,
+      "Description": "Watermelon Juice",
+      "Id": 28,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/watermelon%20juice.png?alt=media&token=38d67a68-cb34-42f4-951c-df4b0514470f",
+      "LocationId": 0,
+      "Price": 4.5,
+      "PriceId": 0,
+      "Star": 4.4,
+      "TimeId": 2,
+      "TimeValue": 12,
+      "Title": "Watermelon Juice"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 3,
+      "Description": "Grape Juice",
+      "Id": 29,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/grape%20juice.png?alt=media&token=6aa7a469-270d-4942-88e2-ba49024981df",
+      "LocationId": 0,
+      "Price": 4.5,
+      "PriceId": 0,
+      "Star": 4.4,
+      "TimeId": 2,
+      "TimeValue": 14,
+      "Title": "Grape Juice"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 3,
+      "Description": "Strawberry Juice",
+      "Id": 30,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/strawberry%20juice.png?alt=media&token=64bdd37d-2ffb-4add-b622-8eae57baa462",
+      "LocationId": 0,
+      "Price": 5,
+      "PriceId": 1,
+      "Star": 4.8,
+      "TimeId": 2,
+      "TimeValue": 15,
+      "Title": "Strawberry Juice"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 4,
+      "Description": "100 Plus",
+      "Id": 31,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/100%20plus.png?alt=media&token=4ac392f1-1171-4774-9f50-7215b452f899",
+      "LocationId": 0,
+      "Price": 3,
+      "PriceId": 0,
+      "Star": 4.7,
+      "TimeId": 0,
+      "TimeValue": 4,
+      "Title": "100 Plus"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 4,
+      "Description": "Coca Cola",
+      "Id": 32,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/coca%20cola.png?alt=media&token=b4d87c23-212d-44e0-ab2c-033148c4685d",
+      "LocationId": 0,
+      "Price": 3,
+      "PriceId": 0,
+      "Star": 4.6,
+      "TimeId": 0,
+      "TimeValue": 4,
+      "Title": "Coca Cola"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 4,
+      "Description": "Pepsi",
+      "Id": 33,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/pepsi.png?alt=media&token=7644ca36-7a76-47f0-a044-429b7f1990fb",
+      "LocationId": 0,
+      "Price": 3,
+      "PriceId": 0,
+      "Star": 4.7,
+      "TimeId": 0,
+      "TimeValue": 4,
+      "Title": "Pepsi"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 4,
+      "Description": "Sprite",
+      "Id": 34,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/sprite.png?alt=media&token=4dc58379-65f0-4735-8dbd-fe3af6557514",
+      "LocationId": 0,
+      "Price": 3,
+      "PriceId": 0,
+      "Star": 4.5,
+      "TimeId": 0,
+      "TimeValue": 4,
+      "Title": "Sprite"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 4,
+      "Description": "7 Up",
+      "Id": 35,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/7up.png?alt=media&token=519f1b2c-f895-4e70-a486-db45e720dca3",
+      "LocationId": 0,
+      "Price": 3,
+      "PriceId": 0,
+      "Star": 4.9,
+      "TimeId": 0,
+      "TimeValue": 4,
+      "Title": "7 Up"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 5,
+      "Description": "Chrysanthemum",
+      "Id": 36,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/chrysanthemum.png?alt=media&token=130e2ee9-44a5-4140-8e60-384b2db375f2",
+      "LocationId": 0,
+      "Price": 3,
+      "PriceId": 0,
+      "Star": 4.9,
+      "TimeId": 0,
+      "TimeValue": 4,
+      "Title": "Chrysanthemum"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 5,
+      "Description": "Lychee",
+      "Id": 37,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/lychee.png?alt=media&token=643ddfdc-1044-4ab0-b7e1-79b6ca655773",
+      "LocationId": 0,
+      "Price": 3,
+      "PriceId": 0,
+      "Star": 4.9,
+      "TimeId": 0,
+      "TimeValue": 4,
+      "Title": "Lychee"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 5,
+      "Description": "Soya Bean",
+      "Id": 38,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/soya%20bean.png?alt=media&token=f3cc7260-e54d-45f7-a90e-01184b5ca17c",
+      "LocationId": 0,
+      "Price": 3,
+      "PriceId": 0,
+      "Star": 4.5,
+      "TimeId": 0,
+      "TimeValue": 4,
+      "Title": "Soya Bean"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 5,
+      "Description": "Mango",
+      "Id": 39,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/mango.png?alt=media&token=eab5c923-aaed-40ad-bc14-0d38054b32dc",
+      "LocationId": 0,
+      "Price": 3,
+      "PriceId": 0,
+      "Star": 4.9,
+      "TimeId": 0,
+      "TimeValue": 4,
+      "Title": "Mango"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 5,
+      "Description": "Ice Lemon Tea",
+      "Id": 40,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/ice%20lemon%20tea.png?alt=media&token=68b4c892-e754-45e3-a447-6dde4d2e67f2",
+      "LocationId": 0,
+      "Price": 3,
+      "PriceId": 0,
+      "Star": 4.6,
+      "TimeId": 0,
+      "TimeValue": 4,
+      "Title": "Ice Lemon Tea"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 5,
+      "Description": "Apple",
+      "Id": 41,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/apple.png?alt=media&token=982213b2-450e-46a6-9fcc-a553c92f35ae",
+      "LocationId": 0,
+      "Price": 3,
+      "PriceId": 0,
+      "Star": 4.5,
+      "TimeId": 0,
+      "TimeValue": 3,
+      "Title": "Apple"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 6,
+      "Description": "Mango Smoothie",
+      "Id": 42,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/mango%20smoothie.png?alt=media&token=aa90e435-e1ee-486e-9e57-396f7a7e65da",
+      "LocationId": 0,
+      "Price": 11,
+      "PriceId": 2,
+      "Star": 4.8,
+      "TimeId": 2,
+      "TimeValue": 15,
+      "Title": "Mango Smoothie"
+    },
+    {
+      "BestDrink": true,
+      "CategoryId": 6,
+      "Description": "Chocolate Smoothie",
+      "Id": 43,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/chocolate%20smoothie.png?alt=media&token=64671bb1-bdda-4189-aa3c-b628d42055a2",
+      "LocationId": 0,
+      "Price": 13,
+      "PriceId": 2,
+      "Star": 4.7,
+      "TimeId": 2,
+      "TimeValue": 20,
+      "Title": "Chocolate Smoothie"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 6,
+      "Description": "Pineapple Smoothie",
+      "Id": 44,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/pineapple%20smoothie.png?alt=media&token=1aea13b9-787d-455f-aa45-d52727a74bac",
+      "LocationId": 0,
+      "Price": 11,
+      "PriceId": 2,
+      "Star": 4.6,
+      "TimeId": 2,
+      "TimeValue": 20,
+      "Title": "Pineapple Smoothie"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 6,
+      "Description": "Banana Smoothie",
+      "Id": 45,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/banana%20smoothie.png?alt=media&token=c19ac953-30dd-44b8-ae55-fa391f1c0d0e",
+      "LocationId": 0,
+      "Price": 11,
+      "PriceId": 2,
+      "Star": 5,
+      "TimeId": 2,
+      "TimeValue": 20,
+      "Title": "Banana Smoothie"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 6,
+      "Description": "Strawberry Smoothie",
+      "Id": 46,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/strawberry%20smoothie.png?alt=media&token=2d118abb-0cb8-437a-9b13-e0aca355b8d3",
+      "LocationId": 0,
+      "Price": 13,
+      "PriceId": 2,
+      "Star": 4.4,
+      "TimeId": 2,
+      "TimeValue": 15,
+      "Title": "Strawberry Smoothie"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 6,
+      "Description": "Avocado Smoothie",
+      "Id": 47,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/avocado%20smoothie.png?alt=media&token=2c66eb73-1f6a-40c7-a0e0-17f961a26611",
+      "LocationId": 0,
+      "Price": 11,
+      "PriceId": 2,
+      "Star": 4.3,
+      "TimeId": 2,
+      "TimeValue": 14,
+      "Title": "Avocado Smoothie"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 7,
+      "Description": "Tiger (tin)",
+      "Id": 48,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/tiger.png?alt=media&token=18563fc9-ca96-444a-9971-4486a6ae8b55",
+      "LocationId": 0,
+      "Price": 9,
+      "PriceId": 1,
+      "Star": 4.6,
+      "TimeId": 1,
+      "TimeValue": 5,
+      "Title": "Tiger (tin)"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 7,
+      "Description": "Calsberg (tin)",
+      "Id": 49,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/calsberg.png?alt=media&token=ffb003aa-8536-4c84-ba3a-5306f62a3038",
+      "LocationId": 0,
+      "Price": 9,
+      "PriceId": 1,
+      "Star": 4.8,
+      "TimeId": 1,
+      "TimeValue": 5,
+      "Title": "Calsberg (tin)"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 7,
+      "Description": "Heineken (tin)",
+      "Id": 50,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/heineken.png?alt=media&token=45afb470-0d2d-4523-96fa-53a2e3f0e37d",
+      "LocationId": 0,
+      "Price": 9,
+      "PriceId": 1,
+      "Star": 4.5,
+      "TimeId": 1,
+      "TimeValue": 5,
+      "Title": "Heineken (tin)"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 7,
+      "Description": "Tiger (bottle)",
+      "Id": 51,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/tiger%20botel.png?alt=media&token=d598bbcb-6936-4162-a6fd-53719d5d4baa",
+      "LocationId": 0,
+      "Price": 10,
+      "PriceId": 2,
+      "Star": 4.4,
+      "TimeId": 1,
+      "TimeValue": 5,
+      "Title": "Tiger (bottle)"
+    },
+    {
+      "BestDrink": false,
+      "CategoryId": 7,
+      "Description": "Calsberg (bottle)",
+      "Id": 52,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/calsberg%20bottle.png?alt=media&token=aea566b3-e1f8-4737-8d20-aede3d47022f",
+      "LocationId": 0,
+      "Price": 10,
+      "PriceId": 2,
+      "Star": 4.7,
+      "TimeId": 1,
+      "TimeValue": 5,
+      "Title": "Calsberg (bottle)"
+    },
+    {
+      "BestDrink": true,
+      "CategoryId": 7,
+      "Description": "Heineken (bottle)",
+      "Id": 53,
+      "ImagePath": "https://firebasestorage.googleapis.com/v0/b/foodcourtdrinkorderingapp.appspot.com/o/heineken%20bottle.png?alt=media&token=3dc28bcc-5a92-4dc7-8433-b5f21c09832d",
+      "LocationId": 0,
+      "Price": 10,
+      "PriceId": 2,
+      "Star": 4.5,
+      "TimeId": 1,
+      "TimeValue": 5,
+      "Title": "Heineken (bottle)"
+    }
+  ],
+  "Location": [
+    {
+      "Id": 0,
+      "loc": "Kampar"
+    }
+  ],
+  "Order": {
+    "-O1f6BZonuB-s2ZigiL5": {
+      "-O1f6BZuti35Q7JpalQm": {
+        "iceAmount": "Normal",
+        "itemName": "Du Shu Xiang(1 pot)",
+        "quantity": 1,
+        "sweetnessLevel": "Medium"
+      },
+      "-O1f6BZvGD6ZNQ3xPe_W": {
+        "iceAmount": "Normal",
+        "itemName": "Du Shu Xiang(1 pot)",
+        "quantity": 1,
+        "sweetnessLevel": "Medium"
+      },
+      "dateTime": "2024-07-13 08:01:48",
+      "tableNumber": "12"
+    },
+    "-O1uScVvho5mVZZCOx4Z": {
+      "-O1uScVz8sczmd_oFhdF": {
+        "iceAmount": "Normal",
+        "itemName": "Xiang Pian(1 Pot)",
+        "quantity": 1,
+        "sweetnessLevel": "Medium"
+      },
+      "-O1uScW-CEa6fFpzJ34b": {
+        "iceAmount": "Half",
+        "itemName": "Grape Juice",
+        "quantity": 1,
+        "sweetnessLevel": "Low"
+      },
+      "dateTime": "2024-07-16 07:34:11",
+      "tableNumber": "11"
+    }
+  },
+  "Price": [
+    {
+      "Id": 0,
+      "Value": "1$ - 10$"
+    },
+    {
+      "Id": 1,
+      "Value": "10$ - 30$"
+    },
+    {
+      "Id": 2,
+      "Value": "more than 30$"
+    }
+  ],
+  "Time": [
+    {
+      "Id": 0,
+      "Value": "0 - 5min"
+    },
+    {
+      "Id": 1,
+      "Value": "5 - 10min"
+    },
+    {
+      "Id": 2,
+      "Value": "more than 10 min"
+    }
+  ],
+  "User": {
+    "0": {
+      "Email": "",
+      "Name": "",
+      "Password": "",
+      "PhoneNo": ""
+    },
+    "HEcv0xRAtnN5Xp8WqWOuBl8Laer2": {
+      "Email": "test@gmail.com",
+      "Name": "test111",
+      "PhoneNo": "01121323222"
+    },
+    "QYv3uCLe5lU0qtNmsryQKSkEDLA2": {
+      "Email": "test@test.com",
+      "Name": "test1",
+      "PhoneNo": "0119888009"
+    }
+  }
+}
